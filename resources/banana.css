@@ -291,12 +291,12 @@ main {
 }
 
 div[lang]:lang(zh) .katex {
-    font-size: 1.1rem !important;
+    font-size: 1.1em !important;
     letter-spacing: normal
 }
 
 div[lang]:not(:lang(zh)) .katex {
-    font-size: 1rem !important;
+    font-size: 1em !important;
     letter-spacing: normal
 }
 
@@ -321,7 +321,7 @@ div[lang]:not(:lang(zh)) .katex {
 .btex-output p,
 .btex-output .p,
 .btex-output table.list {
-    margin: 0 0 1rem 0
+    margin: 0 0 1em 0
 }
 
 .btex-output .block,
@@ -335,8 +335,8 @@ div[lang]:not(:lang(zh)) .katex {
 }
 
 .btex-output .block {
-    padding: .8rem 1.2rem;
-    margin: 0 0 1rem 0;
+    padding: .8em 1.2em;
+    margin: 0 0 1em 0;
     background-color: var(--vscode-textBlockQuote-background, #f4f6f8);
     border-color: var(--vscode-textBlockQuote-border, #c0c4c8);
     border-left: 3px solid
@@ -347,7 +347,7 @@ div[lang]:not(:lang(zh)) .katex {
 }
 
 .btex-output span.display-math {
-    margin: 1rem 0
+    margin: 1em 0
 }
 
 .btex-output p:last-child,
@@ -366,7 +366,7 @@ div[lang]:not(:lang(zh)) .katex {
 }
 
 .btex-output p+table.list.list-no-sep-above {
-    margin-top: -1rem
+    margin-top: -1em
 }
 
 .btex-output table.list {
